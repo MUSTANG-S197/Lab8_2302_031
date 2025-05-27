@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ch - Lab8_2302_031_程继熙</title>
+    <link rel="stylesheet" href="Lab8_2302_031_程继熙.css">
+</head>
+<body>
+    <div class="container">
+        <h1>学生抽选系统</h1>
+        
+        <!-- 垂直排列按钮 -->
+        <div class="control-panel">
+            <button id="startBtn" class="start-btn">
+                <span class="btn-icon">▶</span>
+                开始
+            </button>
+            <button id="stopBtn" class="stop-btn" disabled>
+                <span class="btn-icon">⏹</span>
+                停止
+            </button>
+        </div>
+
+        <div class="display-area">
+            <div class="students-list" id="studentsList"></div>
+            <div class="selected-area">
+                <h2>选中</h2>
+                <div id="selectedStudent" class="selected-student">等待抽选...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Lab8_2302_031_程继熙.js"></script>
+</body>
+</html>
